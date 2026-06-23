@@ -1,4 +1,4 @@
-// TOP APP GAMES — behavior: menu, scroll reveals, active nav, parallax, form
+// TOP APP GAMES - behavior: menu, scroll reveals, active nav, parallax, form
 (function () {
   'use strict';
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -129,7 +129,7 @@
   });
 })();
 
-/* Title No.3 — looping retro loading bar */
+/* Title No.3 - looping retro loading bar */
 (function () {
   'use strict';
   var bar = document.querySelector('.ld-bar b');
