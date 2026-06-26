@@ -968,3 +968,25 @@ html[data-motion="subtle"] .cover-tease .fx-strike { opacity: 0; }
   .team-hero.in { animation: none; }
   .team-hero.in .th-frame::after { animation: none; }
 }
+
+/* ---------- ObelixPro wordmark logo ---------- */
+@font-face {
+  font-family: 'ObelixPro';
+  src: url('../assets/obelixpro.ttf') format('truetype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+.wordmark {
+  font-family: 'ObelixPro', 'Space Grotesk', sans-serif;
+  color: var(--ink); line-height: 1; white-space: nowrap;
+  display: inline-flex; align-items: baseline; letter-spacing: .005em;
+}
+.wordmark .wm-g { color: var(--accent-text); }
+.nav-logo-wm.wordmark { font-size: 19px; transition: font-size .3s ease; }
+.nav.scrolled .nav-logo-wm.wordmark { font-size: 17px; }
+/* mobile: show wordmark, hide image */
+.nav-logo-img { display: none; }
+.nav-logo-wm { display: inline-flex; }
+@media (min-width: 880px) {
+  .nav-logo-img { display: block; }
+  .nav-logo-wm { display: none; }
+}
