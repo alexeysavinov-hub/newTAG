@@ -980,7 +980,7 @@ html[data-motion="subtle"] .cover-tease .fx-strike { opacity: 0; }
   color: var(--ink); line-height: 1; white-space: nowrap;
   display: inline-flex; align-items: baseline; letter-spacing: .005em;
 }
-.wordmark .wm-g { color: var(--accent-text); }
+.wordmark .wm-g { color: var(--accent-text); margin-left: .28em; }
 .nav-logo-wm.wordmark { font-size: 19px; transition: font-size .3s ease; }
 .nav.scrolled .nav-logo-wm.wordmark { font-size: 17px; }
 /* mobile: show wordmark, hide image */
