@@ -136,7 +136,8 @@
     ['Kirill Altunin',     19, 'Code Archmage', [['INT', 20], ['MP', 19], ['STR', 14]]],
     ['Denis Kuklyushkin',  18, 'Illusionist',   [['CRE', 20], ['DEX', 18], ['WIS', 15]]],
     ['Nikita Kharlamov',   28, 'Bard',          [['CHA', 21], ['HYPE', 20], ['LCK', 19]]],
-    ['George Notyag',      15, 'Geomancer',     [['3D', 20], ['STR', 17], ['INT', 16]]]
+    ['George Notyag',      15, 'Geomancer',     [['3D', 20], ['STR', 17], ['INT', 16]]],
+    ['Alexey Dergachev',   12, 'Game Architect',[['SYS', 20], ['R&D', 18], ['INT', 17]]]
   ];
 
   function buildCard(d) {

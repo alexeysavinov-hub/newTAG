@@ -373,7 +373,7 @@ body.menu-open .menu a:nth-child(6) { transition-delay: .31s; }
 .tm-li:hover { color: var(--accent-text); }
 .tm-li i { font-style: normal; }
 @media (min-width: 720px) { .team-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
-@media (min-width: 1024px) { .team-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1024px) { .team-grid { grid-template-columns: repeat(5, 1fr); } }
 
 /* ---------- news ---------- */
 .news-grid { display: grid; gap: 14px; }
