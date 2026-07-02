@@ -129,15 +129,16 @@
 
   /* ============ 3. RPG cards on team hover ============ */
   var RPG = [
-    ['Vladimir Markov',    21, 'Founder',       [['LDR', 20], ['VIS', 19], ['STR', 16]]],
-    ['Vladimir Nikolskiy', 20, 'Founder',       [['INT', 20], ['BIZ', 19], ['LDR', 18]]],
-    ['Evgeni Shishkin',    18, 'Strategist',    [['INT', 18], ['WIS', 17], ['DEX', 16]]],
-    ['Diana Korkina',      17, 'Diplomat',      [['CHA', 20], ['INT', 17], ['LCK', 15]]],
-    ['Kirill Altunin',     19, 'Code Archmage', [['INT', 20], ['MP', 19], ['STR', 14]]],
-    ['Denis Kuklyushkin',  18, 'Illusionist',   [['CRE', 20], ['DEX', 18], ['WIS', 15]]],
-    ['Nikita Kharlamov',   28, 'Bard',          [['CHA', 21], ['HYPE', 20], ['LCK', 19]]],
-    ['George Notyag',      15, 'Geomancer',     [['3D', 20], ['STR', 17], ['INT', 16]]],
-    ['Alexey Dergachev',   12, 'Game Architect',[['SYS', 20], ['R&D', 18], ['INT', 17]]]
+    ['Vladimir Markov',    15, 'Founder',       [['LDR', 20], ['VIS', 19], ['STR', 16]]],
+    ['Vladimir Nikolskiy', 15, 'Founder',       [['INT', 20], ['BIZ', 19], ['LDR', 18]]],
+    ['Mikhail Trifonov',   14, 'Product Sage',  [['PRD', 20], ['AI', 19], ['LDR', 18]]],
+    ['Evgeni Shishkin',    13, 'Strategist',    [['INT', 18], ['WIS', 17], ['DEX', 16]]],
+    ['Diana Korkina',      12, 'Diplomat',      [['CHA', 20], ['INT', 17], ['LCK', 15]]],
+    ['Kirill Altunin',     11, 'Code Archmage', [['INT', 20], ['MP', 19], ['STR', 14]]],
+    ['Denis Kuklyushkin',  10, 'Illusionist',   [['CRE', 20], ['DEX', 18], ['WIS', 15]]],
+    ['Nikita Kharlamov',    9, 'Bard',          [['CHA', 21], ['HYPE', 20], ['LCK', 19]]],
+    ['George Notyag',       8, 'Geomancer',     [['3D', 20], ['STR', 17], ['INT', 16]]],
+    ['Alexey Dergachev',    7, 'Game Architect',[['SYS', 20], ['R&D', 18], ['INT', 17]]]
   ];
 
   function buildCard(d) {
