@@ -74,9 +74,10 @@
     });
   }
 
-  /* ---- contact form (delivers to admin@topapp.games via FormSubmit) ---- */
+  /* ---- contact form (delivers via Web3Forms) ---- */
   var form = document.querySelector('.form');
-  var FORM_ENDPOINT = 'https://formsubmit.co/ajax/admin@topapp.games';
+  var FORM_ENDPOINT = 'https://api.web3forms.com/submit';
+  var FORM_KEY = '6756f6e3-d77c-425b-81d7-dc29d43e9e7f';
   form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     if (form.classList.contains('sending')) return;
@@ -103,10 +104,11 @@
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({
+        access_key: FORM_KEY,
         name: form.querySelector('[name="name"]').value.trim(),
         email: form.querySelector('[name="email"]').value.trim(),
         message: form.querySelector('[name="message"]').value.trim(),
-        _subject: 'New message from topapp.games website'
+        subject: 'New message from topapp.games website'
       })
     }).then(function (res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
